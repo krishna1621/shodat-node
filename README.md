@@ -23,7 +23,7 @@ Navigate to the project directory:
 cd shodat-backend
 Install dependencies:
 
-n
+npm install
 
 Configuration
 Configure MySQL database settings in server.js file.
