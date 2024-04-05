@@ -6,7 +6,6 @@ const mysql = require("mysql");
 const app = express();
 const port = 8000;
 
-// Enable CORS for all routes
 app.use(cors());
 
 // Parse incoming request bodies in middleware before your handlers
@@ -14,9 +13,9 @@ app.use(bodyParser.json());
 
 // MySQL database configuration
 const mysqlConfig = {
-  host: "localhost",
+  host: "192.168.1.22",
   user: "root",
-  password: "786786",
+  password: "krish@123",
   database: "shodat",
 };
 
