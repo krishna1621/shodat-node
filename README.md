@@ -31,7 +31,24 @@ Ensure MySQL server is running and accessible.
 Usage
 Start the backend server:
 
-nodemon server.js
+nodemon Mailer.js
+Three Emails are major role plays in their project. 
+1)Intermediator Email (Send notification both admin and user), 2)Admin mail, 3)User mail.
+
+
+Get Intermediator Email's pass instruction:
+
+1) Open Gmail and click on your profile picture in the top right corner.
+2) Select "Manage your Google Account" from the dropdown menu.
+3) Navigate to the "Security" tab.
+4) Find the "Two-step verification" section and click on it to enable it.
+5) Once two-step verification is enabled, navigate to the "App passwords" section within the two-step verification settings.
+6) Create a name for the app password (e.g., "NodeMailer").
+7) Click on "Generate password" to create a new app-specific password.
+8) Copy the generated password.
+9) Use the copied password in your NodeMailer code where you need to authenticate with Gmail.
+10) Ensure you securely store this generated password as it will be required for accessing your Gmail account through your application. 11) Also, remember to update your NodeMailer code with this new password to ensure proper authentication.
+
 
 Endpoints
 POST /api/schedule-meeting: Endpoint for submitting meeting schedule requests.
