@@ -2,9 +2,9 @@ const mysql = require("mysql");
 
 // MySQL database configuration
 const mysqlConfig = {
-  host: "localhost",
+  host: "192.168.1.5",
   user: "root",
-  password: "786786",
+  password: "krish@123",
   database: "shodat",
 };
 
